@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:Flutter-First-App/Flutter-First';
+import 'package:first_app/gradient_container.dart';
 
 // void helps to define a function in flutter
 void main() {
@@ -7,10 +7,8 @@ void main() {
   runApp(
      const MaterialApp(
       home: Scaffold(
-        // backgroundColor: Color.fromARGB(230, 72, 20, 160),
         body: GradientContainer()
       ),
     ),
   );
 }
-
