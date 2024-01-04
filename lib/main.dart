@@ -5,10 +5,12 @@ import 'package:first_app/gradient_container.dart';
 void main() {
   // this is how a function is called
   runApp(
-     const MaterialApp(
+    const MaterialApp(
       home: Scaffold(
-        body: GradientContainer()
-      ),
+          body: GradientContainer(
+        Color.fromARGB(255, 103, 58, 183),
+        Color.fromARGB(255, 79, 43, 139),
+      )),
     ),
   );
 }
