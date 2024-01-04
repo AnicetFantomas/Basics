@@ -9,7 +9,7 @@ void main() {
       home: Scaffold(
           body: GradientContainer(
         Color.fromARGB(255, 103, 58, 183),
-        Color.fromARGB(255, 79, 43, 139),
+          Color.fromARGB(255, 79, 43, 139),
       )),
     ),
   );
